@@ -1,0 +1,11 @@
+module Clibgit2mac [system] {
+  header "/usr/local/include/libgit2.h"
+  link "libgit2"
+  export *
+}
+
+module Clibgit2linux [system] {
+    header "/usr/include/libgit2.h"
+    link "libgit2"
+    export *
+}
